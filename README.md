@@ -1,1 +1,1 @@
-This project is about recipes created using the HTML.
+This project is about recipes created using the HTML and CSS.
