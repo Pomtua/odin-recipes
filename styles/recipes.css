@@ -1,0 +1,71 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: #e78c38;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    margin: 0;
+    padding: 10px 20px 30px 20px;
+    width: auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.img {
+    background-color: #fff5ec;
+}
+
+h2 {
+    background-color: #Ffc087;
+    color: #740b0b;
+    padding: 10px 10px 10px 20px;
+    margin: 0;
+    width: 150px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+ul > li {
+    color: #000000;
+}
+
+ul li li {
+    color: rgb(0, 0, 0);
+}
+
+ol {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+li::before {
+
+    /* Unicode for a bullet */
+    content: "\2022";
+
+    /* Styles for Indentation*/
+    color: rgb(238, 130, 130);
+
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+li {
+    line-height: 30px;
+}
